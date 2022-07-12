@@ -1,0 +1,49 @@
+.header{
+    
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color:#f3f3f3;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+    float: left;
+}
+li a:hover {
+    background-color: rgb(165, 164, 164);
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ .banner{
+    padding-left: 120px;
+    padding-right: 120px;
+ }
+ .flex-container{
+    display: flex;
+    justify-content: center;
+ }
+ .intro{
+    text-align: justify;
+    margin-left: 100px;
+ }
+ .intro-img img{
+    height: 500px;
+    width: 300px;
+    float: right;
+ }
