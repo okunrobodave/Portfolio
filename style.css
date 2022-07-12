@@ -34,15 +34,10 @@ li a {
     padding-left: 120px;
     padding-right: 120px;
  }
- .flex-container{
-    display: flex;
-    justify-content: center;
- }
  .intro{
     text-align: justify;
-    margin-left: 100px;
  }
- .intro-img img{
+img{
     height: 500px;
     width: 300px;
     float: right;
